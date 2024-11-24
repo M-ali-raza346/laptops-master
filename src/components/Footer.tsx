@@ -81,11 +81,11 @@ const Footer: React.FC = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="flex justify-end items-end space-x-4 pb-0 px-4 pr-32 md:mt-0">
-        <Image src="/images/faizan.jpeg" alt="Visa" width={45} height={30} />
-        <Image src="/images/faizan.jpeg" alt="MasterCard" width={45} height={30} />
-        <Image src="/images/faizan.jpeg" alt="Maestro" width={45} height={30} />
-        <Image src="/images/faizan.jpeg" alt="PayPal" width={45} height={30} />
+      <div className="flex justify-end items-end space-x-4 pb-10 px-4 pr-28 md:mt-0">
+        <Image src="/images/piv.png" alt="Visa" width={50} height={35} />
+        <Image src="/images/piv.png" alt="MasterCard" width={50} height={30} />
+        <Image src="/images/piv.png" alt="Maestro" width={50} height={30} />
+        <Image src="/images/piv.png" alt="PayPal" width={50} height={30} />
       </div>
     </footer>
   );
