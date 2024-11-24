@@ -33,10 +33,10 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">ABOUT</h3>
             <ul className="space-y-2 text-md">
-              <li><Link href="">About Us</Link></li>
-              <li><Link href="">Orders</Link></li>
-              <li><Link href="">Quality</Link></li>
-              <li><Link href="">Privacy Policy</Link></li>
+              <li className="hover:underline"><Link href="">About Us</Link></li>
+              <li className="hover:underline"><Link href="">Orders</Link></li>
+              <li className="hover:underline"><Link href="">Quality</Link></li>
+              <li className="hover:underline"><Link href="">Privacy Policy</Link></li>
             </ul>
           </div>
 
@@ -44,21 +44,21 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-bold mb-4">HELP</h3>
             <ul className="space-y-2 text-md">
-              <li><Link href="#">My Account</Link></li>
-              <li><Link href="">Customer Help</Link></li>
-              <li><Link href="">Contact Us</Link></li>
-              <li><Link href="">Terms and Conditions</Link></li>
-              <li><Link href="">FAQ</Link></li>
+              <li className="hover:underline"><Link href="#">My Account</Link></li>
+              <li className="hover:underline"><Link href="">Customer Help</Link></li>
+              <li className="hover:underline"><Link href="">Contact Us</Link></li>
+              <li className="hover:underline"><Link href="">Terms and Conditions</Link></li>
+              <li className="hover:underline"><Link href="">FAQ</Link></li>
             </ul>
           </div>
 
           {/* Follow Section */}
           <div>
             <h3 className="text-lg font-bold mb-4">FOLLOW</h3>
-            <ul className="space-y-2 text-md">
-              <li><Link href="">Facebook</Link></li>
-              <li><Link href="">TikTok</Link></li>
-              <li><Link href="">Instagram</Link></li>
+            <ul className="space-y-2 text-md ">
+              <li className="hover:underline"><Link href="">Facebook</Link></li>
+              <li className="hover:underline"><Link href="">TikTok</Link></li>
+              <li className="hover:underline"><Link href="">Instagram</Link></li>
             </ul>
           </div>
 
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="flex justify-end items-end space-x-4 pb-10 px-4 pr-28 md:mt-0">
+      <div className="flex justify-end items-end space-x-4 pb-10 px-4 pr-28 md:mt-0 ">
         <Image src="/images/piv.png" alt="Visa" width={50} height={35} />
         <Image src="/images/piv.png" alt="MasterCard" width={50} height={30} />
         <Image src="/images/piv.png" alt="Maestro" width={50} height={30} />
